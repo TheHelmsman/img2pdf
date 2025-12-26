@@ -1,3 +1,50 @@
+# img2pdf Application
+
+The img2pdf application is a Python-based tool designed to convert image files into `PDF` format. It leverages the `Pillow` library, a powerful and flexible library for opening, manipulating, and saving many different image file formats.
+
+## Features:
+Converts single or multiple image files into a PDF document
+Supports various image formats (e.g., JPG, PNG, BMP, etc.)
+Allows customization of output PDF settings
+Provides error handling for robust performance
+
+## Requirements:
+- Python 3.x
+- Pillow library (`pip3 install Pillow`)
+
+## Installation
+
+1. clone repository
+2. check if you have `python3` & `pip3` installed:
+```bash
+python3 --version
+# sample output:
+# Python 3.14.2
+pip3 --version
+# sample output:
+# pip 25.3 from /opt/homebrew/lib/python3.14/site-packages/pip (python 3.14)
+```   
+3. If no python, install:
+```bash
+brew install python
+```
+4. Check if you have `Pillow` installed:
+```bash
+```bash
+pip3 list
+# sample output
+# Package Version
+# ------- -------
+# pillow  12.0.0
+# pip     25.3
+# wheel   0.45.1
+```
+5. If no Pillow, install:
+```bash
+pip3 install Pillow
+```
+6. Use next section to get further instructions
+
 # How to Use
 
 ## Method 1: Command Line
@@ -49,7 +96,7 @@ done
 5. Save as "Convert to PDF"
 6. Now right-click any image in Finder → Services → Convert to PDF
 
-## Features
+# Features
 - **Supports multiple formats:** JPG, PNG, BMP, GIF, TIFF, WebP
 - **Single or multi-page PDFs**
 - **A4 paper resizing** option
